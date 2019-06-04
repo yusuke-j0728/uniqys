@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <p>Hello</p>
+    <input type="text">
+    <button>submit</button>
   </div>
 </template>
 
