@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <input type="text">
+    <input type="text" v-model="input">
     <button>submit</button>
+    <p>{{ input }}</p>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'app',
-  components: {
-    HelloWorld
+  data() {
+    return {
+      input: ''
+    }
   }
 }
 </script>
